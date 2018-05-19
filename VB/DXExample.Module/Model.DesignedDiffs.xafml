@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application Title="DXExample" Logo="ExpressAppLogo">
+	<Views>
+		<DetailView ID="CustomUser_DetailView">
+			<Layout Width="516" Height="782">
+				<LayoutGroup ID="Main" CaptionLocation="Default" RelativeSize="98">
+					<LayoutGroup ID="SimpleEditors" CaptionLocation="Default" RelativeSize="11">
+						<LayoutGroup ID="CustomUser" Removed="True" />
+						<LayoutGroup ID="CustomUser" Index="0" Direction="Vertical" ShowCaption="False" Caption="Custom User" CaptionLocation="Default" RelativeSize="86" IsNewNode="True">
+							<LayoutItem ID="Company" ShowCaption="True" Index="2" CaptionLocation="Default" RelativeSize="33" SizeConstraintsType="Default" IsNewNode="True" />
+							<LayoutItem ID="UserName" ShowCaption="True" Index="1" CaptionLocation="Default" RelativeSize="33" SizeConstraintsType="Default" IsNewNode="True" />
+							<LayoutGroup ID="f8db02fb-2184-4aef-85b9-fafc9f62e03b" ShowCaption="False" Caption="" CaptionLocation="" Direction="Horizontal" Index="0" RelativeSize="33" IsNewNode="True">
+								<LayoutItem ID="IsActive" ShowCaption="True" CaptionLocation="Default" Index="0" RelativeSize="50" SizeConstraintsType="Default" IsNewNode="True" />
+								<LayoutItem ID="ChangePasswordOnFirstLogon" ShowCaption="True" CaptionLocation="Default" Index="1" RelativeSize="50" SizeConstraintsType="Default" IsNewNode="True" />
+							</LayoutGroup>
+						</LayoutGroup>
+					</LayoutGroup>
+					<TabbedGroup ID="Tabs" CaptionLocation="Default" RelativeSize="88">
+						<LayoutGroup ID="Roles" Direction="Vertical" RelativeSize="100">
+							<LayoutItem ID="Roles" RelativeSize="100" SizeConstraintsType="Custom" />
+						</LayoutGroup>
+						<LayoutGroup ID="Permissions" Direction="Vertical" RelativeSize="100">
+							<LayoutItem ID="Permissions" RelativeSize="100" SizeConstraintsType="Default" />
+						</LayoutGroup>
+					</TabbedGroup>
+				</LayoutGroup>
+			</Layout>
+		</DetailView>
+	</Views>
+	<SchemaModules IsNewNode="True">
+		<SchemaModule Name="SystemModule" Version="8.3.4.5247" IsNewNode="True" />
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.HideActionsViewController" Version="8.3.4.5247" IsNewNode="True" />
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.ShowNavigationItemController" Version="8.3.4.5247" IsNewNode="True" />
+	</SchemaModules>
+</Application>

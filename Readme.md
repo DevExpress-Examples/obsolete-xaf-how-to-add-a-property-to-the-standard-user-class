@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Company.cs](./CS/DXExample.Module/Company.cs) (VB: [Company.vb](./VB/DXExample.Module/Company.vb))
+* [CustomRole.cs](./CS/DXExample.Module/CustomRole.cs) (VB: [CustomRole.vb](./VB/DXExample.Module/CustomRole.vb))
+* [CustomUser.cs](./CS/DXExample.Module/CustomUser.cs) (VB: [CustomUser.vb](./VB/DXExample.Module/CustomUser.vb))
+* [Updater.cs](./CS/DXExample.Module/Updater.cs) (VB: [Updater.vb](./VB/DXExample.Module/Updater.vb))
+<!-- default file list end -->
 # OBSOLETE - How to add a property to the standard user class
 
 
